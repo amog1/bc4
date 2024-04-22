@@ -1,0 +1,63 @@
+html {
+  background-image: url(image/background.png);
+  background: cover;
+  padding: 20px;
+}
+body {
+  background-color: rgba(191, 217, 239, 0.879);
+  width: 1000px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+div {
+  border: 10px solid black;
+  border-radius: 3%;
+  padding: 10px;
+  background-color: rgba(161, 245, 245, 0.76);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  border: 10px solid black;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.759);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+table {
+  border: 2px double black;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(123, 223, 245, 0.657);
+}
+
+td {
+  border: 2px double black;
+  padding: 10px;
+}
+
+tr {
+  border: 2px double black;
+  padding: 10px;
+}
+
+.reload {
+  text-align: center;
+  font-size: large;
+}
+
+.big {
+  font-size: large;
+  background-color: brown;
+  color: white;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: rgb(223, 12, 12);
+  color: whitesmoke;
+}
